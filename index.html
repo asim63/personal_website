@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css\skills.css" />
     <link rel="stylesheet" href="css\about.css" />
     <link rel="stylesheet" href="css\sidebar.css" />
+    <link rel="stylesheet" href="css\work_count.css" />
+    <link rel="stylesheet" href="css\contacts.css" />
 
     <link
       rel="stylesheet"
@@ -122,7 +124,7 @@
   </p>
 
   <div class="about__happy">
-    <h2>I am happy to tell you that I have done 300+ projects done successfully!</h2>
+    <h2>I am happy to let you know that i am constantly doing and learning web dev projects.</h2>
     <button>hire me</button>
   </div>
 
@@ -137,6 +139,57 @@
     </div>
   </div>
 </section>
+
+<section id="work__count">
+  <div class="count__item">
+    <span>30</span>
+    <p>cups of coffee</p>
+  </div>
+
+  <div class="count__item">
+    <span>10</span>
+    <p>projects</p>
+  </div>
+
+  <div class="count__item">
+    <span>0</span>
+    <p>clients</p>
+  </div>
+
+  <div class="count__item">
+    <span>1</span>
+    <p>partners</p>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <span class="section__title" style="font-size: 18px;color:rgb(11, 51, 2)"><strong>Get</strong> in touch</span>
+  <h2 class="section__subtitle" style="font-size: 20px;margin-top:20px;font-weight:bold">Contact</h2>
+
+  <form
+    action=""
+    id="contactForm"
+    class="contact__form"
+    onsubmit="submitForm(event);"
+  >
+    <input
+      type="text"
+      placeholder="Name"
+      id="name"
+      name="name"
+      class="contact__input"
+    />
+    <textarea
+      id="message"
+      class="contact__textarea"
+      name="message"
+      placeholder="Message"
+      rows="4"
+    ></textarea>
+    <button class="contact__button" type="submit">Send Message</button>
+  </form>
+</section>
+
 
 <script>
   const hamburger = document.querySelector("#hamburger")
