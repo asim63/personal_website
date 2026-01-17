@@ -29,5 +29,9 @@ li {
 }
 
 .main_content {
-  transform: none;
+  transition: transform 0.5s ease;
+}
+
+.main_content.shifted {
+  transform: translateX(300px);
 }
