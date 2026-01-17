@@ -27,3 +27,7 @@ ul,
 li {
   all: unset;
 }
+
+.main_content {
+  transform: none;
+}
