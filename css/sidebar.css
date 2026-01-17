@@ -72,7 +72,7 @@
 
 @media screen and (min-width: 768px) {
   body {
-    margin-left: 300px;
+    margin-left: 50px;
   }
   .sidebar__hamburger {
     display: none;

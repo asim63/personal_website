@@ -28,10 +28,19 @@ li {
   all: unset;
 }
 
-.main_content {
-  transition: transform 0.5s ease;
+/* Sidebar open state */
+body.sidebar-open .sidebar_hamburger {
+  transform: translateX(300px);
 }
 
-.main_content.shifted {
+body.sidebar-open .sidebar_content {
+  transform: translateX(0);
+}
+
+.main_content {
+  transition: transform 500ms ease;
+}
+
+body.sidebar-open .main_content {
   transform: translateX(300px);
 }
