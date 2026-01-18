@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: flex-start;
   background-image: url(../image/pfp.jpg);
-  background-position: bottom right;
+  background-position: top right;
   background-size: contain;
   background-repeat: no-repeat;
 }

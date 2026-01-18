@@ -28,7 +28,6 @@ li {
   all: unset;
 }
 
-/* Sidebar open state */
 body.sidebar-open .sidebar_hamburger {
   transform: translateX(300px);
 }
